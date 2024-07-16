@@ -10,7 +10,7 @@ Antes de partir para a criação do modelo em si, foi feita uma rápida análise
 
 A princípo olhando as métricas **RMSE** e **MSE** podemos ter uma falsa noção de que o modelo performou mal, já que os valores foram respectivamente **1013091.25** e **1026353856512.000**, no entanto isso se deve fato de que os valores do target serem bastante elevados. Como o objetivo desse projeto era testar a capacidade do Amazon Sagemaker Canvas nenhum dado foi **Normalizado** ou **Padronizado** anteriormente, no entanto mesmo não realizando esses processos podemos ter uma melhor compreensão da performance do modelo olhando para a unidade de medida **R-squared** que apresentou um valor incrível de **70.641%**, isso signifca que as *features* do modelo conseguem explicar pelo menos 70% da variação no preço, sendo a que mais impactante a coluna **area**, como mostra a imagem a seguir:
 
-![image](assets\area_grafico.png)
+![image](https://github.com/ycarotrindade/lab-aws-sagemaker-canvas-estoque/blob/main/assets/area_grafico.png)
 
 # Predições
 
