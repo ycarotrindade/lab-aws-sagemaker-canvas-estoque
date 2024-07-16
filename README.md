@@ -15,4 +15,4 @@ A princípo olhando as métricas **RMSE** e **MSE** podemos ter uma falsa noçã
 # Predições
 
 Utilizando a ferramenta **single prediction** podemos comprovar que realmente a coluna de **area** é a que mais impacta na variação do preço.
-![image](assets\impacto.png)
+![image](https://github.com/ycarotrindade/lab-aws-sagemaker-canvas-estoque/blob/main/assets/impacto.png)
